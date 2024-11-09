@@ -3,7 +3,7 @@ A game for toddlers
 
 ## 🖼️ Screenshots
 
-![Screenshot](screenshots/Screenshot.png)
+![Screenshot](screenshots/screenshot.png)
 
 ## 🕹️ Play
 
