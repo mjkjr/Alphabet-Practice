@@ -1,0 +1,291 @@
+[gd_scene load_steps=55 format=3 uid="uid://cdlypom2nf3hi"]
+
+[ext_resource type="Texture2D" uid="uid://46v5mw24r4rn" path="res://assets/bg/purple.png" id="1_j4cyo"]
+[ext_resource type="Script" path="res://game.gd" id="1_l2h21"]
+[ext_resource type="Texture2D" uid="uid://ct667n31gu47" path="res://assets/tiles/blue/a.png" id="2_cunwo"]
+[ext_resource type="Texture2D" uid="uid://qf1fjee5ldwb" path="res://assets/tiles/blue/b.png" id="3_gpumu"]
+[ext_resource type="Texture2D" uid="uid://b24hnx0si55ph" path="res://assets/tiles/cream/b.png" id="4_1punu"]
+[ext_resource type="Texture2D" uid="uid://bjnli1ml22ekk" path="res://assets/tiles/blue/c.png" id="4_6lu66"]
+[ext_resource type="Texture2D" uid="uid://c6347rwt1rgtn" path="res://assets/tiles/cream/a.png" id="4_el33x"]
+[ext_resource type="Texture2D" uid="uid://bblgqc63y0l86" path="res://assets/tiles/blue/d.png" id="5_gkhlg"]
+[ext_resource type="Texture2D" uid="uid://ds2bcqc1xutpe" path="res://assets/tiles/blue/e.png" id="6_b15f1"]
+[ext_resource type="Texture2D" uid="uid://bqtdqduw450fl" path="res://assets/tiles/blue/f.png" id="7_a1sv3"]
+[ext_resource type="Texture2D" uid="uid://by6bej3rc17yh" path="res://assets/tiles/cream/c.png" id="8_b1o3c"]
+[ext_resource type="Texture2D" uid="uid://bxls3gu0qg3xy" path="res://assets/tiles/blue/g.png" id="8_fadn7"]
+[ext_resource type="Texture2D" uid="uid://o3q2c20gtkbv" path="res://assets/tiles/blue/h.png" id="9_2nd6s"]
+[ext_resource type="Texture2D" uid="uid://bovc0lgwwdauh" path="res://assets/tiles/blue/i.png" id="10_k1vsv"]
+[ext_resource type="Texture2D" uid="uid://chqu21e4lwbev" path="res://assets/tiles/cream/d.png" id="10_v005v"]
+[ext_resource type="Texture2D" uid="uid://d17jdfm560jqi" path="res://assets/tiles/blue/j.png" id="11_rx18b"]
+[ext_resource type="Texture2D" uid="uid://djbdv2w44f3wh" path="res://assets/tiles/cream/e.png" id="12_2k3kj"]
+[ext_resource type="Texture2D" uid="uid://dptiy8pq1qmeh" path="res://assets/tiles/blue/k.png" id="12_a1hmb"]
+[ext_resource type="Texture2D" uid="uid://cughiyvsbrisg" path="res://assets/tiles/blue/l.png" id="13_h7qew"]
+[ext_resource type="Texture2D" uid="uid://c2c3sj7n4sii3" path="res://assets/tiles/cream/f.png" id="14_xmufv"]
+[ext_resource type="Texture2D" uid="uid://drtdyi5sfpvhf" path="res://assets/tiles/blue/m.png" id="14_yxkm3"]
+[ext_resource type="Texture2D" uid="uid://cpa4xc7318n0n" path="res://assets/tiles/blue/n.png" id="15_81hxy"]
+[ext_resource type="Texture2D" uid="uid://cktgi73cjysem" path="res://assets/tiles/blue/o.png" id="16_8ek08"]
+[ext_resource type="Texture2D" uid="uid://cj54jyr63g3hm" path="res://assets/tiles/cream/g.png" id="16_r7ic3"]
+[ext_resource type="Texture2D" uid="uid://50vcgxkrny2n" path="res://assets/tiles/blue/p.png" id="17_w84wd"]
+[ext_resource type="Texture2D" uid="uid://kioukkemrejm" path="res://assets/tiles/cream/h.png" id="18_6rkfn"]
+[ext_resource type="Texture2D" uid="uid://dsksgjv2m3j6g" path="res://assets/tiles/blue/q.png" id="18_rwfdx"]
+[ext_resource type="Texture2D" uid="uid://bm8f3ardxaeo3" path="res://assets/tiles/blue/r.png" id="19_p4bba"]
+[ext_resource type="Texture2D" uid="uid://dnn8yt70gr3d1" path="res://assets/tiles/blue/s.png" id="20_13hel"]
+[ext_resource type="Texture2D" uid="uid://6bvxw021cyhq" path="res://assets/tiles/cream/i.png" id="20_loron"]
+[ext_resource type="Texture2D" uid="uid://baoh03oyodfoj" path="res://assets/tiles/blue/t.png" id="21_jagtv"]
+[ext_resource type="Texture2D" uid="uid://uwsjmh52y260" path="res://assets/tiles/blue/u.png" id="22_1gi47"]
+[ext_resource type="Texture2D" uid="uid://ij63qp11hj0o" path="res://assets/tiles/cream/j.png" id="22_8pq55"]
+[ext_resource type="Texture2D" uid="uid://d0aab2q5q44hn" path="res://assets/tiles/blue/v.png" id="23_3x6u0"]
+[ext_resource type="Texture2D" uid="uid://bby31uj8vrgi5" path="res://assets/tiles/cream/k.png" id="24_24dav"]
+[ext_resource type="Texture2D" uid="uid://bowbpaat06pr2" path="res://assets/tiles/blue/w.png" id="24_kn3uk"]
+[ext_resource type="Texture2D" uid="uid://b8ox5chwt5grv" path="res://assets/tiles/blue/x.png" id="25_q0dcl"]
+[ext_resource type="Texture2D" uid="uid://cb0s6nfg4412p" path="res://assets/tiles/blue/y.png" id="26_1304e"]
+[ext_resource type="Texture2D" uid="uid://dumviqci2eq00" path="res://assets/tiles/cream/l.png" id="26_btjhs"]
+[ext_resource type="Texture2D" uid="uid://bu207qecq7bw1" path="res://assets/tiles/blue/z.png" id="27_j3jwi"]
+[ext_resource type="Texture2D" uid="uid://b1cv2bpc558ve" path="res://assets/tiles/cream/m.png" id="28_aodei"]
+[ext_resource type="Texture2D" uid="uid://do8gqhwo5abxh" path="res://assets/tiles/cream/n.png" id="30_nlm8n"]
+[ext_resource type="Texture2D" uid="uid://p67wblbx5enb" path="res://assets/tiles/cream/o.png" id="32_dqflm"]
+[ext_resource type="Texture2D" uid="uid://bjyhvnqsaqrb" path="res://assets/tiles/cream/p.png" id="34_50ngp"]
+[ext_resource type="Texture2D" uid="uid://lgbsaarycn0i" path="res://assets/tiles/cream/q.png" id="36_lm8s8"]
+[ext_resource type="Texture2D" uid="uid://di7amrx2xlxju" path="res://assets/tiles/cream/r.png" id="38_ktf4n"]
+[ext_resource type="Texture2D" uid="uid://b8hp0cq71h2i4" path="res://assets/tiles/cream/s.png" id="40_0j5w3"]
+[ext_resource type="Texture2D" uid="uid://duljmwe0gtkl2" path="res://assets/tiles/cream/t.png" id="42_pj6v8"]
+[ext_resource type="Texture2D" uid="uid://c0xrfidb1hkad" path="res://assets/tiles/cream/u.png" id="44_nqibt"]
+[ext_resource type="Texture2D" uid="uid://ck5prcktibb4e" path="res://assets/tiles/cream/v.png" id="46_8fq5t"]
+[ext_resource type="Texture2D" uid="uid://cppy35h20onki" path="res://assets/tiles/cream/w.png" id="48_yxqx4"]
+[ext_resource type="Texture2D" uid="uid://cxlgn4oyus3b1" path="res://assets/tiles/cream/x.png" id="50_vm1wm"]
+[ext_resource type="Texture2D" uid="uid://dki5y4li2bo4a" path="res://assets/tiles/cream/y.png" id="52_tt7e6"]
+[ext_resource type="Texture2D" uid="uid://c6n8am0ypwlpm" path="res://assets/tiles/cream/z.png" id="54_ux7mw"]
+
+[node name="Game" type="Node"]
+script = ExtResource("1_l2h21")
+
+[node name="Bg" type="CanvasLayer" parent="."]
+layer = -1
+
+[node name="Purple" type="Sprite2D" parent="Bg"]
+position = Vector2(960, 540)
+texture = ExtResource("1_j4cyo")
+
+[node name="Version" type="Label" parent="Bg"]
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -161.0
+offset_top = -54.0
+offset_right = -67.0
+offset_bottom = -20.0
+grow_horizontal = 0
+grow_vertical = 0
+theme_override_font_sizes/font_size = 20
+text = "Version"
+horizontal_alignment = 2
+
+[node name="Credits" type="Label" parent="Bg"]
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -779.0
+offset_top = -282.0
+offset_right = -67.0
+offset_bottom = -63.0
+grow_horizontal = 0
+grow_vertical = 0
+theme_override_font_sizes/font_size = 24
+text = "Credits:
+• Design: Michael J. Kozubal Jr. (mjkjr.itch.io)
+• Code: Michael J. Kozubal Jr. (github.com/mjkjr)
+• Engine: Godot (godotengine.org)
+• Sprites: Game Developer Studio (gamedeveloperstudio.com)
+• Voice: Aurelia Kozubal"
+
+[node name="GridContainer" type="GridContainer" parent="."]
+offset_left = 119.0
+offset_top = 78.0
+offset_right = 2251.0
+offset_bottom = 1138.0
+scale = Vector2(0.789004, 0.852266)
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_constants/h_separation = 12
+theme_override_constants/v_separation = 12
+columns = 8
+
+[node name="a" type="TextureButton" parent="GridContainer" groups=["buttons"]]
+layout_mode = 2
+texture_normal = ExtResource("2_cunwo")
+texture_hover = ExtResource("4_el33x")
+stretch_mode = 0
+
+[node name="b" type="TextureButton" parent="GridContainer" groups=["buttons"]]
+layout_mode = 2
+texture_normal = ExtResource("3_gpumu")
+texture_hover = ExtResource("4_1punu")
+
+[node name="c" type="TextureButton" parent="GridContainer" groups=["buttons"]]
+layout_mode = 2
+texture_normal = ExtResource("4_6lu66")
+texture_hover = ExtResource("8_b1o3c")
+
+[node name="d" type="TextureButton" parent="GridContainer" groups=["buttons"]]
+layout_mode = 2
+texture_normal = ExtResource("5_gkhlg")
+texture_hover = ExtResource("10_v005v")
+
+[node name="e" type="TextureButton" parent="GridContainer" groups=["buttons"]]
+layout_mode = 2
+texture_normal = ExtResource("6_b15f1")
+texture_hover = ExtResource("12_2k3kj")
+
+[node name="f" type="TextureButton" parent="GridContainer" groups=["buttons"]]
+layout_mode = 2
+texture_normal = ExtResource("7_a1sv3")
+texture_hover = ExtResource("14_xmufv")
+
+[node name="g" type="TextureButton" parent="GridContainer" groups=["buttons"]]
+layout_mode = 2
+texture_normal = ExtResource("8_fadn7")
+texture_hover = ExtResource("16_r7ic3")
+
+[node name="h" type="TextureButton" parent="GridContainer" groups=["buttons"]]
+layout_mode = 2
+texture_normal = ExtResource("9_2nd6s")
+texture_hover = ExtResource("18_6rkfn")
+
+[node name="i" type="TextureButton" parent="GridContainer" groups=["buttons"]]
+layout_mode = 2
+texture_normal = ExtResource("10_k1vsv")
+texture_hover = ExtResource("20_loron")
+
+[node name="j" type="TextureButton" parent="GridContainer" groups=["buttons"]]
+layout_mode = 2
+texture_normal = ExtResource("11_rx18b")
+texture_hover = ExtResource("22_8pq55")
+
+[node name="k" type="TextureButton" parent="GridContainer" groups=["buttons"]]
+layout_mode = 2
+texture_normal = ExtResource("12_a1hmb")
+texture_hover = ExtResource("24_24dav")
+
+[node name="l" type="TextureButton" parent="GridContainer" groups=["buttons"]]
+layout_mode = 2
+texture_normal = ExtResource("13_h7qew")
+texture_hover = ExtResource("26_btjhs")
+
+[node name="m" type="TextureButton" parent="GridContainer" groups=["buttons"]]
+layout_mode = 2
+texture_normal = ExtResource("14_yxkm3")
+texture_hover = ExtResource("28_aodei")
+
+[node name="n" type="TextureButton" parent="GridContainer" groups=["buttons"]]
+layout_mode = 2
+texture_normal = ExtResource("15_81hxy")
+texture_hover = ExtResource("30_nlm8n")
+
+[node name="o" type="TextureButton" parent="GridContainer" groups=["buttons"]]
+layout_mode = 2
+texture_normal = ExtResource("16_8ek08")
+texture_hover = ExtResource("32_dqflm")
+
+[node name="p" type="TextureButton" parent="GridContainer" groups=["buttons"]]
+layout_mode = 2
+texture_normal = ExtResource("17_w84wd")
+texture_hover = ExtResource("34_50ngp")
+
+[node name="q" type="TextureButton" parent="GridContainer" groups=["buttons"]]
+layout_mode = 2
+texture_normal = ExtResource("18_rwfdx")
+texture_hover = ExtResource("36_lm8s8")
+
+[node name="r" type="TextureButton" parent="GridContainer" groups=["buttons"]]
+layout_mode = 2
+texture_normal = ExtResource("19_p4bba")
+texture_hover = ExtResource("38_ktf4n")
+
+[node name="s" type="TextureButton" parent="GridContainer" groups=["buttons"]]
+layout_mode = 2
+texture_normal = ExtResource("20_13hel")
+texture_hover = ExtResource("40_0j5w3")
+
+[node name="t" type="TextureButton" parent="GridContainer" groups=["buttons"]]
+layout_mode = 2
+texture_normal = ExtResource("21_jagtv")
+texture_hover = ExtResource("42_pj6v8")
+
+[node name="u" type="TextureButton" parent="GridContainer" groups=["buttons"]]
+layout_mode = 2
+texture_normal = ExtResource("22_1gi47")
+texture_hover = ExtResource("44_nqibt")
+
+[node name="v" type="TextureButton" parent="GridContainer" groups=["buttons"]]
+layout_mode = 2
+texture_normal = ExtResource("23_3x6u0")
+texture_hover = ExtResource("46_8fq5t")
+
+[node name="w" type="TextureButton" parent="GridContainer" groups=["buttons"]]
+layout_mode = 2
+texture_normal = ExtResource("24_kn3uk")
+texture_hover = ExtResource("48_yxqx4")
+
+[node name="x" type="TextureButton" parent="GridContainer" groups=["buttons"]]
+layout_mode = 2
+texture_normal = ExtResource("25_q0dcl")
+texture_hover = ExtResource("50_vm1wm")
+
+[node name="y" type="TextureButton" parent="GridContainer" groups=["buttons"]]
+layout_mode = 2
+texture_normal = ExtResource("26_1304e")
+texture_hover = ExtResource("52_tt7e6")
+
+[node name="z" type="TextureButton" parent="GridContainer" groups=["buttons"]]
+layout_mode = 2
+texture_normal = ExtResource("27_j3jwi")
+texture_hover = ExtResource("54_ux7mw")
+
+[node name="QuizMeButton" type="Button" parent="."]
+offset_left = 654.0
+offset_top = 824.0
+offset_right = 1040.0
+offset_bottom = 973.0
+theme_override_font_sizes/font_size = 48
+text = "Quiz Me!"
+
+[node name="Audio" type="Node" parent="."]
+
+[node name="Letters" type="AudioStreamPlayer" parent="Audio"]
+bus = &"Chorus"
+
+[node name="Quiz" type="AudioStreamPlayer" parent="Audio"]
+bus = &"Chorus"
+
+[connection signal="pressed" from="GridContainer/a" to="." method="_on_letter_pressed" binds= [0]]
+[connection signal="pressed" from="GridContainer/b" to="." method="_on_letter_pressed" binds= [1]]
+[connection signal="pressed" from="GridContainer/c" to="." method="_on_letter_pressed" binds= [2]]
+[connection signal="pressed" from="GridContainer/d" to="." method="_on_letter_pressed" binds= [3]]
+[connection signal="pressed" from="GridContainer/e" to="." method="_on_letter_pressed" binds= [4]]
+[connection signal="pressed" from="GridContainer/f" to="." method="_on_letter_pressed" binds= [5]]
+[connection signal="pressed" from="GridContainer/g" to="." method="_on_letter_pressed" binds= [6]]
+[connection signal="pressed" from="GridContainer/h" to="." method="_on_letter_pressed" binds= [7]]
+[connection signal="pressed" from="GridContainer/i" to="." method="_on_letter_pressed" binds= [8]]
+[connection signal="pressed" from="GridContainer/j" to="." method="_on_letter_pressed" binds= [9]]
+[connection signal="pressed" from="GridContainer/k" to="." method="_on_letter_pressed" binds= [10]]
+[connection signal="pressed" from="GridContainer/l" to="." method="_on_letter_pressed" binds= [11]]
+[connection signal="pressed" from="GridContainer/m" to="." method="_on_letter_pressed" binds= [12]]
+[connection signal="pressed" from="GridContainer/n" to="." method="_on_letter_pressed" binds= [13]]
+[connection signal="pressed" from="GridContainer/o" to="." method="_on_letter_pressed" binds= [14]]
+[connection signal="pressed" from="GridContainer/p" to="." method="_on_letter_pressed" binds= [15]]
+[connection signal="pressed" from="GridContainer/q" to="." method="_on_letter_pressed" binds= [16]]
+[connection signal="pressed" from="GridContainer/r" to="." method="_on_letter_pressed" binds= [17]]
+[connection signal="pressed" from="GridContainer/s" to="." method="_on_letter_pressed" binds= [18]]
+[connection signal="pressed" from="GridContainer/t" to="." method="_on_letter_pressed" binds= [19]]
+[connection signal="pressed" from="GridContainer/u" to="." method="_on_letter_pressed" binds= [20]]
+[connection signal="pressed" from="GridContainer/v" to="." method="_on_letter_pressed" binds= [21]]
+[connection signal="pressed" from="GridContainer/w" to="." method="_on_letter_pressed" binds= [22]]
+[connection signal="pressed" from="GridContainer/x" to="." method="_on_letter_pressed" binds= [23]]
+[connection signal="pressed" from="GridContainer/y" to="." method="_on_letter_pressed" binds= [24]]
+[connection signal="pressed" from="GridContainer/z" to="." method="_on_letter_pressed" binds= [25]]
+[connection signal="pressed" from="QuizMeButton" to="." method="_on_quiz_me_button_pressed"]
+[connection signal="finished" from="Audio/Letters" to="." method="_on_letters_finished"]
+[connection signal="finished" from="Audio/Quiz" to="." method="_on_quiz_finished"]
